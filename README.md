@@ -973,7 +973,7 @@ com a barra (/).
     
     ![image](https://user-images.githubusercontent.com/33090891/232353421-832c03e4-267a-45ef-9f72-b2f6eb7708dc.png)
 
-  - Tatget
+  - Target
   
     - O atributo <a target> especifica onde abrir o documento vinculado por uma tag a (elemento de âncora).
     
@@ -1050,26 +1050,9 @@ com a barra (/).
       - Título - H1
 </details>
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <details>
-<summary>Aula 10 - dia 20 de Abril: HTML/TAGS/TAGS DE MÍDIA</summary>
+
+<details>
+<summary>Aula 12 - dia 20 de Abril: HTML/TAGS/TAGS DE MÍDIA</summary>
 
 ![image](https://user-images.githubusercontent.com/33090891/232353837-777bb5dd-610e-45d5-8318-005635f5691b.png)
 
@@ -1088,7 +1071,7 @@ com a barra (/).
 </details>
 
 <details>
-<summary>Aula 12 - dia 25 de Abril: Tabelas</summary>
+<summary>Aula 13 - dia 25 de Abril: Tabelas</summary>
 
 - O que são tabelas?
 
@@ -1146,7 +1129,7 @@ com a barra (/).
 
   
 <details>
-<summary>Aula 12 - dia 27 de Abril: Form/Inputs</summary>
+<summary>Aula 14 - dia 27 de Abril: Form/Inputs</summary>
   
 - Tag para o formulário
   
@@ -1220,7 +1203,7 @@ com a barra (/).
   
 - disabled: desabilita o input
   
-  ~~~
+~~~
        <form action="endereco.html" method="get">
             <label>Nome:</label>
             <input type="text" placeholder="">
@@ -1267,11 +1250,9 @@ com a barra (/).
             <br>
             <input type="week" placeholder="week">
             <br>
-            <input type="button" value="teste" disabled>
-            
+            <input type="button" value="teste" disabled> 
         </form>
 ~~~
-
 </details>
   
 <details>
