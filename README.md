@@ -1049,3 +1049,232 @@ com a barra (/).
       - Cabeçalho - header;
       - Título - H1
 </details>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <details>
+<summary>Aula 10 - dia 20 de Abril: HTML/TAGS/TAGS DE MÍDIA</summary>
+
+![image](https://user-images.githubusercontent.com/33090891/232353837-777bb5dd-610e-45d5-8318-005635f5691b.png)
+
+![image](https://user-images.githubusercontent.com/33090891/232353857-638251a9-a661-47af-9eca-f89780359af6.png)
+
+![image](https://user-images.githubusercontent.com/33090891/232353869-0ac3531e-e437-49f0-9623-74eb090884cc.png)
+
+![image](https://user-images.githubusercontent.com/33090891/232353886-7cb6f131-8c84-482b-9eab-0a3952fdd710.png)
+
+![image](https://user-images.githubusercontent.com/33090891/232353906-b2045d1a-5974-4d8c-a1f9-fa7408feada5.png)
+
+![image](https://user-images.githubusercontent.com/33090891/232353923-57afa4e5-0c9e-4cf2-b5c0-017195465e0b.png)
+
+![image](https://user-images.githubusercontent.com/33090891/232353932-4d01a5f7-7707-49b1-8435-8c8ce95f806f.png)
+
+</details>
+
+<details>
+<summary>Aula 12 - dia 25 de Abril: Tabelas</summary>
+
+- O que são tabelas?
+
+  - As tabelas são listas de dados em duas dimensões e são compostas por linhas e colunas. Portanto, são muito utilizadas para apresentar dados de uma forma organizada.
+  
+ - Estrutura básica.
+ 
+  - As tags que vão formar a estrutura básica de uma tabela em HTML são as tags <tr> e <td>. A tag <tr> representa uma linha e a tag <td> representa uma célula. Desta forma, a criação de colunas em uma tabela HTML é feita automaticamente através da quantidade de células incluídas dentro de uma linha. 
+
+  
+  ![image](https://user-images.githubusercontent.com/33090891/235353939-2a24ae5d-2316-4848-b50b-aa10dee00c7e.png)
+  
+![image](https://user-images.githubusercontent.com/33090891/235353964-eccf7911-a29d-426d-987f-f07689c7db6a.png)
+
+![image](https://user-images.githubusercontent.com/33090891/235353971-925b8f57-2690-41b8-87b0-b2a79fe22f40.png)
+  
+- Células que abrangem mais que uma linha/coluna
+  
+  - Em algumas situações, temos a necessidade de utilizar uma mesclagem de célula, ou seja, criar uma célula que abrange mais do que uma linha ou coluna.
+  
+  - Dessa forma, podemos utilizar os atributos colspan e rowspan. O colspan=”x” vai fazer uma mesclagem de colunas, e o rowspan=”x” vai mesclar linhas, bastando substituir o x pelo número de colunas ou linhas que deseja ocupar.
+  
+  - Além disso, podemos também mesclar os dois em uma mesma célula. 
+  
+  ![image](https://user-images.githubusercontent.com/33090891/235354014-ff2e03d6-336b-4924-9b10-75d5c18611b0.png)
+
+![image](https://user-images.githubusercontent.com/33090891/235354022-34d214aa-55f5-422a-aec0-076a400c45e2.png)
+
+- exemplo rowspan
+  
+  ![image](https://user-images.githubusercontent.com/33090891/235354055-3262dca7-a336-4d4a-adc3-2ac1bc4750ef.png)
+
+  ![image](https://user-images.githubusercontent.com/33090891/235354060-2e43376f-aac2-4884-b14e-0d6256dada81.png)
+
+  
+~~~
+<table>
+  <thead>
+    <th>Nome</th>
+    <th>Idade</th>
+    <th>Telefone</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Edson</td>
+      <td>35</td>
+      <td>42-9999-9999</td>
+    </tr>
+  </tbody>
+</table>
+
+~~~
+
+</details>
+
+  
+<details>
+<summary>Aula 12 - dia 27 de Abril: Form/Inputs</summary>
+  
+- Tag para o formulário
+  
+  - <form></form>
+  
+- Atributos do formulário
+  
+  - action=” ” onde é adicionado o endereço para onde estamos enviando os valores dos inputs
+  
+  - method=” ” atributo utilizado para mostrar o tipo do envio, get ou post
+  
+  - name=” “ define o nome do parâmetro no seu envio
+    
+- Método get os valores mostrado na URL do navegador
+  
+- Método post os valores são mostrados dentro do Rede->Requisições
+  
+- Tags
+  
+  - <label></label> - Tag para descrever os inputs
+
+  - <input></input> - Tag para controles interativos
+  
+- Atributos
+  
+  - button: botão
+  
+  - checkbox: caixa de marcação
+  
+  - color: controle de cores
+  
+  - date: inserir data (ano, mês, dia)
+  
+  - datetime: inserir data e horário (a,m,d + hora, minuto, segundo)
+  
+  - datetime-local: inserir data e horário (sem fuso horário)
+  
+  - email: inserir email
+
+  - placeholder=” ” o que faz aparecer o texto dentro do input
+  
+  - file: envio de arquivo (accept)
+  
+  - hidden: não é exibido mas o valor é enviado ao servidor
+  
+  - image:
+  
+  - month: insere mês e ano, sem fuso
+  
+  - number: inserir número
+  
+  - password: campo de texto com o valor escondido
+  
+  - radio: botão de escolha
+
+- range: inserir números (min:0, max:100)
+  
+- reset: resetar o form
+  
+- search: busca
+  
+- submit: botão que envia o formulário
+  
+- tel: campo para telefone
+  
+- time: inserir horário sem fuso
+  
+- url: manipular url
+  
+- week: inserir uma data semana sem fuso
+  
+- disabled: desabilita o input
+  
+  ~~~
+       <form action="endereco.html" method="get">
+            <label>Nome:</label>
+            <input type="text" placeholder="">
+            <br>
+            <input type="checkbox" placeholder="">
+            <br>
+            <input type="color" placeholder="">
+            <br>
+            <input type="date" placeholder="">
+            <br>
+            <input type="datetime" placeholder="">
+            <br>
+            <input type="datetime-local" placeholder="">
+            <br>
+            <input type="email" placeholder="email@email">
+            <br>
+            <input type="file" placeholder="">
+            <br>
+            <input type="hidden" placeholder="">
+            <br>
+            <input type="image" placeholder="">
+            <br>
+            <input type="month" placeholder="">
+            <br>
+            <input type="number" placeholder="">
+            <br>
+            <input type="password" placeholder="Senha">
+            <br>
+            <input type="radio" placeholder="">
+            <br>
+            <input type="range" placeholder="">
+            <br>
+            <input type="reset" placeholder="">
+            <br>
+            <input type="search" placeholder="Pesquisar">
+            <br>
+            <input type="submit" placeholder="">
+            <br>
+            <input type="tel" placeholder="Fone">
+            <br>
+            <input type="time" placeholder="">
+            <br>
+            <input type="url" placeholder="url">
+            <br>
+            <input type="week" placeholder="week">
+            <br>
+            <input type="button" value="teste" disabled>
+            
+        </form>
+~~~
+
+</details>
+  
+<details>
+<summary>Aula 13 - dia 02 e 04 de Maio: Projeto HTML</summary>
+  
+</details>
