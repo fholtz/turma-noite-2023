@@ -1882,6 +1882,374 @@ Exercício
 
 	
 <details>
-<summary>Aula 21 - dia 15 de Junho: </summary>
+<summary>Aula 21 - dia 15 de Junho: Projeto de CSS</summary>
+	
+</details>
+
+
+
+------------------------------------------JS--------------------------------------------
+
+
+
+<details>
+<summary>Aula 22 - dia 20 de Julho: Algoritmos</summary>
+
+-Introdução
+
+	- Algoritmo é um termo da área de TI para definir um conjunto básico de regras.
+
+	- Sequência de instruções para alcançar um objetivo, sendo que as instruções são finitas.
+	Podemos comparar como uma receita de bolo.
+
+-Variáveis
+
+	- É um espaço na memória do computador, destinado a um armazenamento de dado que pode ser alterado durante a execução do algoritmo.
+
+	- Para o funcionamento correto as variáveis são definidas por tipos.
+
+-Tipos de vvariáveis
+
+	- inteiro: números inteiros (0, 1, 2, 3 ….)
+ 
+	- reais: números inteiro e decimais (0; 1,2; 2,1; 3 …)
+ 
+	- caracteres: números reais, letras e outros símbolos
+ 
+	- logico: comando de VERDADEIRO ou FALSO
+
+-Atribuição no portugol de variáveis
+
+	- nome_variavel := expressão;
+
+	- num2 := 10;
+
+ -Comandos
+
+	- Comandos de Entrada (leitura)
+ 
+		- Ex: Leia
+
+	- Comandos de Saída (escrita)
+ 
+		- Ex: Escreva
+  
+-Operador lógico
+
+	- ||    ou
+
+	- &&    e
+
+ -Condicional
+
+ - Possibilita a escolha de um grupo de ações e estrutura a serem executadas quando determinadas condições são ou não satisfeitas.
+
+   
+-Ex 1.
+ 
+	Inicio
+	SE condição ENTAO
+	comando
+		SENAO
+			comando
+		FIM SE
+		Fimalgoritmo
+
+
+-Ex 2.
+
+	SE a = 1 && a <= 3 ENTAO
+	comando
+		SENAO
+			comando
+		FIM SE
+
+-Ex 3.
+
+	SE a = 1 || a = 3 ENTAO
+	comando
+		SENAO
+			comando
+		FIM SE
+
+-Ex 4.
+
+	Inicio
+	SE condição ENTAO
+	comando
+		SENAO
+			comando
+		FIM SE
+		Fimalgoritmo
+
+
+  - Operadir relacional
+
+    ![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/d4b681eb-eee9-4ac2-a80d-35b9a43c38ef)
+
+    
+-Ex 5.
+
+	Algoritmo “valor_x”
+	var x: inteiro;
+	Inicio
+		x:= 10;
+		Escreva(“O valor de x é”, x);
+	Fimalgoritmo
+
+ -Ex 6.
+
+	Algoritmo “ler_numero”
+	var x: inteiro;
+	Inicio
+		Escreva(“Informe o valor de x:”);
+		Leia(x);
+		Escreva(“O valor digitado foi: ”, x);
+	Fimalgoritmo
+
+ -Ex 7.
+
+ 	Algoritmo “verificar_lampada”
+	var lampada: inteiro;
+	Inicio
+	Escreva(“Se a lampada estiver acesa digite 1 senão 0:”);
+	Leia(lampada);
+		SE lampada = 1 ENTAO
+			Escreva(“A lampada está acesa”);
+		SENAO
+			Escreva(“A lampada está apagada”);
+		Fim SE
+	Fimalgoritmo
+
+ -Fluxograma.
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/892ff16a-867c-4dc2-b8be-5ced99ed6ff9)
+
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/a644525c-0392-4c20-ab6e-66542e930a1d)
+
+
+Exercícios:
+
+-1- Desenvolva um algoritmo capaz de encontrar o menor entre 3 números.
+
+-2- Em uma escola, a média final é dada pela média aritmética de três números. E a mesma tem o seguinte esquema de avaliação. Média situação do aluno.
+Desenvolva um algoritmo que a partir da entrada das três notas mostra a situação do aluno.
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/b7dd8257-e8af-4921-8fcb-f8b693ef336b)
+
+-3- Em uma loja de CD’s existem apenas quatro tipos de preços que estão associados a cores. Assim os CD’s que ficam na loja não são marcados por preços e sim por cores.
+Desenvolva um algoritmo que a partir da entrada da cor o software mostra o preço. A loja está atualmente com a seguinte tabela de preço.
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/e17551e3-04a1-4a62-adb2-dd1be16f1d14)
+
+
+</details>
+
+
+<details>
+<summary>Aula 23 - dia 25 de Julho: Java Script e Condicionais</summary>
+
+- Conhecida como JS é uma linguagem de programação dinâmica, cheia de recursos quando aplicada em um documento HTML, pode fornecer interatividade dinâmica em sites
+  
+- Sempre que uma página web faz mais do que apenas mostrar informações estáticas para você - ela mostra em tempo real conteúdos atualizados, mapas interativos, animações gráficas em 2D/3D, vídeos, etc. - você pode apostar que o Javascript provavelmente está envolvido
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/bc438cf3-4b90-4701-ad2b-8a291b1bad86)
+
+-Interno
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/192a6104-5617-4084-bd32-04350713b647)
+
+-Externo
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/9fa81d27-6bc9-4a49-b069-f010eade6158)
+
+- Há um considerável número de problemas envolvendo o carregamento de scripts na ordem correta
+Um problema comum é que todo o HTML de uma página é carregado na ordem em que ele aparece. Se você estiver usando Javascript para manipular alguns elementos da página, seu código não irá funcionar caso o JavaScript for carregado e executado antes mesmo dos elementos HTML estarem disponíveis.
+
+- Para evitar isso, script interno é colocado antes de </body>
+
+-Comentários
+
+linha 
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/f4f6d17e-e5b8-41e9-9eae-dc96347bac61)
+
+
+linhas
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/bd3c6c11-0da3-450b-9731-5cc1ae2f55eb)
+
+-Variáveis
+
+-Variáveis são espaços na memória do computador onde você pode armazenar dados
+  
+	- let minhaVariavel = “Edson”;
+	- var minhavariavel = “Edson”;
+   
+-Lembrando que o JavaScript é case sensitive
+
+-Após atribuir um valor a variável, ela pode ser manipulada e ter o seu valor alterado
+
+	- Ex.
+	- let minhaVariavel = “Tiepermann”;
+
+-Utilizar somente caracteres latinos (0-9, a-z, A-Z) e o caractere underline ( _ )
+
+-Não use underline no início do nome de variáveis
+
+-Não use número no início do nome de variáveis
+
+-Utilizar lower camel case: minhaVariavel
+
+-Nomes intuitivos, para que descrevam o dado que ela contém
+
+-var
+
+	- Enviada para o escopo geral do seu JS, fica como global
+ 
+-let
+
+	- Fica disponível em um local específico do seu código
+	- Evita consumo excessivo de memória
+	- Evita troca de valores das variáveis
+ 
+-JS é conhecido como tipagem dinâmica, ou seja, não necessita declarar o tipo da variável antes da atribuição
+
+	Boolean
+	Null
+	Undefined 
+	Number
+	BigInt
+	String
+	Object
+
+-Boolean
+
+	- Conhecido como tipo lógico
+-Null
+
+	- Representa uma valor nulo ou vazio
+ 
+-Undefined 
+
+	-Variáveis recentemente declaradas, mas que não existem argumentos atribuídos
+ 
+-Number
+
+	-Tipo de dado numérico 64bits
+
+-BigInt
+
+	-Tipo numérico para evitar estouro de memória
+ 
+-String
+
+	-Sequência de caracteres 
+ 
+-Object
+
+	-Refere-se a uma estrutura de dados contendo dados e instruções para se trabalhar com esses dados. Algumas vezes podem se referir a coisas do mundo real
+
+-Operadores aritméticos
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/3655ddbb-02d8-4f93-b3f0-5dd8cfc7c974)
+
+-Operadores de atribuição
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/f3538c5b-2ab0-4da9-8022-5fea70ff056b)
+
+Operadores de comparação
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/a55f26cb-7f6e-4f3f-8fed-052dbb0a9730)
+
+-Operadores relacionais
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/76f46e97-9058-4c78-be16-1f38fd6ee185)
+
+-O tipo mais comum e mais utilizado de condicional no JS: condicional if…else
+
+Estrutura e como utilizar:
+
+	if (condição) {
+		executa o código caso a condição seja verdadeira
+	} else {
+		senão, executa este código
+	}
+
+-Existe uma maneira de encadear escolhas/resultados extras ao seu if…else, utilizando o else if
+Estrutura e como utilizar:
+
+	if (condição) {
+		executa o código caso a condição seja verdadeira
+	} else if (condição) {
+		senão se, executa este código
+	} else {
+		senão, executa este código
+	}
+
+-É perfeitamente correto a utilização do if…else dentro de outro if…else
+Exemplo:
+
+	if (prof == “Edson”) {
+		if (turma == “tarde”) {
+			console.log(“professor da turma da tarde”);
+		}	
+	} else {
+		console.log(“professor da turma da noite”);
+	}
+
+-Exercícios no repositório de exercícios.
+
+</details>
+
+<details>
+<summary>Aula 24 - dia 27 de Julho: JS - Switch </summary>
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/43ea4df7-b08c-4f3e-b402-0f277f6bdd6a)
+
+- A condicional switch avalia uma expressão, combinando o valor da expressão para a cláusula case, e executa as instruções associadas ao case.
+Exemplo: Obtenha uma entrada com o nome de um mês e mostre na tela a estação do ano relacionada ao mês.
+
+-E apresente no console um texto referente ao que vai ser mostrado e a variável em questão.
+
+	-console.log(“o texto digitado” + variavel);
+
+-Março, Abril, Maio - Outono
+
+-Junho, Julho, agosto - Inverno
+
+-Setembro, Outubro, Novembro - Primavera
+
+-Dezembro, Janeiro, Fevereiro - Verão
+
+	const expr = Janeiro;
+	switch (expr) {
+  	case Janeiro:
+    		console.log('O mês’ + expr + ‘é a estação Verão' );
+    	break;
+  	case Fevereiro:
+    		console.log('O mês’ + expr + ‘é a estação Verão' );
+   	break;
+	…
+  	case Fevereiro:
+    		console.log('O mês’ + expr + ‘é a estação Verão' );
+    	break;
+	…
+  	default:
+    		console.log(`Mês digitado inexistente, o digitado foi` + expr );
+
+	
+</details>
+
+
+<details>
+<summary>Aula 25 - dia 01 de Agosto: Exercícios IF ELSE / SWITCH</summary>
+	
+</details>
+
+
+<details>
+<summary>Aula 26 - dia 03 de Agosto: Estruturas de repetição</summary>
 	
 </details>
