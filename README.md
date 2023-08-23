@@ -2447,6 +2447,96 @@ O  que é um Array?
 
 
 <details>
-<summary>Aula 28 - dia 10 de Agosto: </summary>
+<summary>Aula 28 - dia 10 de Agosto: Objeto e exercícios</summary>
+
+-Similar com o array, porém array tem uma listagem numerada, já o objeto tem uma listagem nomeada, um objeto contém propriedades.
+Iniciando um objeto
+
+	-var carro = {}
+ 
+Difereça na inicialização:
+
+	-objeto = {}      !=   array = []
+
+Adicionando propriedades a um objeto.
+
+	-var carro = {
+	    fabricante: ‘Fiat’,
+	    modelo: ‘Uno’,
+	    peso: ‘900kg’
+	}
+
+-Para acessarmos um dado do objeto, será através da sua propriedade do objeto. Ex.
+
+	-console.log(carro.fabricante)
+ 
+-O this refere-se ao próprio elemento ao qual você está utilizando no escopo.
+
+-Com o objeto criado, conseguimos através do this, acessar e manipular dentro do console do navegador, utilizando o DOM Document Object Model.
+
+É possível criarmos um array de objetos
+
+	-var veiculos = [
+	    {tipo:’carro’, modelo:’corsa’},
+	    {tipo:’moto’, modelo:’fazer 250’},
+	    {tipo:’avião’, modelo:’cesna’},
+	]
+
+
+
+
+</details>
+
+
+
+<details>
+<summary>Aula 29 - dia 15 de Agosto: Exercícios</summary>
+	
+</details>
+
+
+
+<details>
+<summary>Aula 30 - dia 17 e 22 de Agosto: DESAFIO!!! </summary>
+	
+</details>
+
+
+
+<details>
+<summary>Aula 31 - dia 24 de Agosto: Funções e exercícios </summary>
+
+- Funções são blocos de construção
+	- Um conjunto de instruções que executa uma ação
+
+- Nome da função;
+- Parâmetros (se necessário);
+- Bloco de instruções;
+- Retorno (se necessário);
+
+- Chamada da função;
+
+- Sintaxe:
+
+  
+		  function nomeFuncao(parametro) {
+			let instrucoes = bloco de instruções a realizar (que utiliza o parametro);
+		
+			return instrucoes;
+		}
+		
+		
+		function nomeFuncao() {
+			let instrucoes = bloco de instruções a realizar;
+		}
+
+- Exercícios
+
+
+
+</details>
+
+<details>
+<summary>Aula 32 - dia 29 de Agosto: </summary>
 	
 </details>
