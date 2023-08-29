@@ -2537,6 +2537,45 @@ Adicionando propriedades a um objeto.
 </details>
 
 <details>
-<summary>Aula 32 - dia 29 de Agosto: </summary>
+<summary>Aula 32 - dia 29 de Agosto: DOM e Bootstrap</summary>
+
+-Objeto
+
+-Utilizado para a representação e interação com um conjunto de objetos em seu navegador, ele dá acesso completo em seu website enquanto estamos rodando o JS dentro do navegador, onde os elementos/nós de cada documento são organizados em uma estrutura de árvore, chamado DOM.
+
+-A árvore DOM começa na raiz e é chamada de window, então tudo está dentro do window/janela, basicamente o seu navegador é um objeto DOM.
+
+-Dentro do window temos vários objetos, como na árvore a seguir
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/7d40de56-57bd-4609-b903-117638359913)
+
+-Elemento é tudo aquilo que aparece dentro da árvore DOM, podemos acessar de algumas maneiras.
+Por marca/tag
+
+	-Por id
+	-Por nome
+	-Por classe
+	-Por seletor
+
+EX:
+
+	-document.getElementsByTagName(“input”)
+
+ -Formas de seleção em JS
+
+	-getElementsByTagName(‘div’)[1];
+	-document.getElementById(‘idDoElemento’).innerHTML= cont
+	-document.getElementByName(‘nameDoELemento’).innerHtml
+	-document.getElementByClassName
+	-documento.querySelector(‘div#id’);
+
+
+
+</details>
+
+
+
+<details>
+<summary>Aula 33 - dia 31 de Agosto: </summary>
 	
 </details>
