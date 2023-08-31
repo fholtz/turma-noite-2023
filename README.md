@@ -2576,6 +2576,39 @@ EX:
 
 
 <details>
-<summary>Aula 33 - dia 31 de Agosto: </summary>
+<summary>Aula 33 - dia 31 de Agosto: Eventos DOM</summary>
+
+
+- Formas de seleção em JS
+
+		getElementsByTagName(‘div’)[1];
+		
+		document.getElementById(‘idDoElemento’).innerHTML= cont
+		
+		document.getElementByName(‘nameDoELemento’).innerHtml
+		
+		document.getElementByClassName
+		
+		documento.querySelector(‘div#id’);
+
+
+- Eventos
+
+- Eventos são ações que acontecem na página que estamos desenvolvendo
+
+	- Alguns tipos de eventos:
+	- Uma página termina de carregar
+	- Um campo input teve seu valor alterado
+	- Um botão foi clicado
+
+- Por exemplo, se o usuário clica em um botão numa página, você pode querer mostrar na tela uma caixa de informação
+
+
+<img width="554" alt="image" src="https://github.com/fholtz/turma-noite-2023/assets/100241586/0b8283e2-f12c-47d6-98e8-33ad864149d1">
+
+</details>
+
+<details>
+<summary>Aula 34 - dia 05 de Setembro: </summary>
 	
 </details>
