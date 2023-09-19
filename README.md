@@ -2613,6 +2613,66 @@ EX:
 </details>
 
 <details>
-<summary>Aula 34 - dia 05 de Setembro: </summary>
+<summary>Aula 34 - dia 05 de Setembro: Exercícios</summary>
 	
+</details>
+
+<details>
+<summary>Aula 35 - dia 12 e 14 de Setembro: Event Listener e exercícios</summary>
+
+-Uma outra forma de chamar um evento é através do addEventListener
+
+ex.
+
+	-document.getElementById("idDoElemento").addEventListener("oEvento", aFuncao);
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/2b2ad9b4-2043-4579-ac22-41fd1aca3d47)
+
+-Pode ser utilizado os mesmo metodos, porém no evento listener tirasse o ON no começo dos métodos.
+
+-ex.
+
+![image](https://github.com/EdsonTiepermann/turma-tarde-2023/assets/33090891/107e9276-fba8-42e5-98a5-5bf0e1c8403c)
+
+ 
+</details>
+
+<details>
+<summary>Aula 36 - dia 19 de Setembro: AJAX</summary>
+
+<img width="610" alt="image" src="https://github.com/fholtz/turma-noite-2023/assets/100241586/5fed39cd-75de-4de3-8034-35e0dafc8c91">
+
+<img width="648" alt="image" src="https://github.com/fholtz/turma-noite-2023/assets/100241586/985a2ab9-472b-4ba7-b956-336ee75b82e7">
+
+<img width="694" alt="image" src="https://github.com/fholtz/turma-noite-2023/assets/100241586/6abdcfb7-f12a-49cc-8ed1-7ca241e9763d">
+
+<img width="821" alt="image" src="https://github.com/fholtz/turma-noite-2023/assets/100241586/69548c7c-145c-4c6d-9dbd-d2b949442948">
+
+
+-Tecnologia nativa do JavaScript.
+
+-Asynchronous JavaScript XML
+
+-Transaciona dados entre o Front-End e o Back-End sem a necessidade de atualizar a página.
+
+-Isso se dá a um processamento chamado assíncrono.
+
+-Assincrono, realiza o processo em ordem do mais rápido sem travar os demais processamentos.
+
+	-url: 
+		-Aqui você informa ao AJAX onde você quer executar esse script
+	-Method:
+		-Você escolhe se será por get ou post
+	-data:
+		-{//o objeto}
+
+https://viacep.com.br/
+
+Exercícios, copie o código apresentado em sala, e incremente o script para que o o retorno da API ViaCEP apresente as informações na tela, e não somente do console.log
+ 
+</details>
+
+<details>
+<summary>Aula 37 - dia 19 de Setembro: </summary>
+
 </details>
