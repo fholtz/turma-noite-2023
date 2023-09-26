@@ -2673,6 +2673,43 @@ Exercícios, copie o código apresentado em sala, e incremente o script para que
 </details>
 
 <details>
-<summary>Aula 37 - dia 19 de Setembro: </summary>
+<summary>Aula 37 - dia 21 de Setembro: Exercício</summary>
+
+</details>
+
+<details>
+<summary>Aula 38 - dia 26 de Setembro: Desafio API de clima</summary>
+
+
+
+-Acessar o gitHub fholtz e realizar o fork do repositório
+
+	exercicio-api-clima-turma-noite
+
+-Baixar clonar o seu fork e criar os arquivos necessário somente dentro da pasta com o seu nome.
+
+-Da mesma forma que foi realizado o consumo da API de endereços, utilize a API de clima do site:
+
+	https://hgbrasil.com/status/weather
+
+ 	'https://api.hgbrasil.com/weather?format=json-cors&key=sua_chave&city_name=Concatena_com_a_variavel, options'
+
+-Leia a documentação da api e adquira a chave gerada pelo site, crie seu cadastro e receba a chave em seu email.
+
+-Mostre na tela do computador junto com o HTML e CSS ou bootstrap as informações 
+
+	-Cidade
+	-Data
+	-Hora atual
+	-Temperatura
+	-Condição do tempo
+	-Horário do amanhecer
+	-Horário do entardecer
+	
+
+</details>
+
+<details>
+<summary>Aula 39 - dia 28 de Setembro: </summary>
 
 </details>
