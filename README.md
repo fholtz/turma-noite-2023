@@ -2710,6 +2710,15 @@ Exercícios, copie o código apresentado em sala, e incremente o script para que
 </details>
 
 <details>
-<summary>Aula 39 - dia 28 de Setembro: </summary>
+<summary>Aula 39 - dia 28 de Setembro: Desafio API</summary>
+
+</details>
+
+<details>
+<summary>Aula 40 - dia 28 de Setembro: Projeto JS</summary>
+
+ 	Todas as informações referente ao projeto estão no repositório 
+	
+	projeto-js-noite-2023
 
 </details>
